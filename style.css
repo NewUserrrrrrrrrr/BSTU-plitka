@@ -808,3 +808,66 @@
   }
   
   
+
+
+
+
+
+
+
+
+
+
+  
+
+  .fifth_page {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(255, 255,255, 1);
+    opacity: 1;
+    position: relative;
+    left: 0px;
+    overflow: hidden;
+    display: flex;
+  }
+  
+  .base_layer_5 { 
+    width: 80vw;
+    height: 100vh;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 10vw;
+    overflow: hidden;
+  }
+  
+  
+  
+  
+  .header_5 {
+    width: 80vw;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 5vh;
+    font-family: Cormorant Garamond;
+    font-weight: Regular;
+    font-size: 7vh;
+    opacity: 1;
+    text-align: left;
+    font-style:inherit;
+    text-align: center;
+  }
+  
+  .backgr_image_5 {
+    width: 100vw;
+    height: 100vh;
+    top: 12vh;
+    background: url("./assets/jpg/v23_1507.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    overflow: hidden;
+  }
