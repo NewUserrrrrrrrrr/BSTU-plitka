@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-size: 14px;
+  }
+  .first_page {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(255, 255,255, 1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    display: flex;
+  }
+  .base_layer {
+    width: 80vw;
+    height: 100vh;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 10vw;
+    overflow: hidden;
+  }
+  
+  .backgr_image {
+    width: 100vw;
+    height: 100vh;
+    background: url("./assets/jpg/v22_1369.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    overflow: hidden;
+  }
+  
+  .header {
+    width: 100vw;
+    height: 16vh;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .menu {
+    width: 70vw;
+    height: 100vh;
+    background: url("./assets/jpg/v22_857.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 7vh;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 22vw;
+    overflow: hidden;
+  }
+  .option_1 {
+    color: rgba(24,24,24,1);
+    position: relative;
+    top: 0.5vh;
+    left: 0px;
+    font-family: Raleway;
+    font-weight: Light;
+    font-size: 1.7vw;
+    opacity: 1;
+    text-align: left;
+  }
+  .option_2 {
+    color: rgba(24,24,24,1);
+    position: absolute;
+    top: 0.5vh;
+    left: 7vw;
+    font-family: Raleway;
+    font-weight: Light;
+    font-size: 1.7vw;
+    opacity: 1;
+    text-align: left;
+  }
+  .option_3 {
+    color: rgba(24,24,24,1);
+    position: absolute;
+    top: 0.5vh;
+    left: 14vw;
+    font-family: Raleway;
+    font-weight: Light;
+    font-size: 1.7vw;
+    opacity: 1;
+    text-align: left;
+  }
+  .option_4 {
+    color: rgba(24,24,24,1);
+    position: relative;
+    top: 0.5vh;
+    left: 26vw;
+    font-family: Raleway;
+    font-weight: Light;
+    font-size: 1.7vw;
+    opacity: 1;
+    text-align: left;
+  }
+  .submenu {
+    width: 13vw;
+    height: 2vw;
+    background: url("./assets/jpg/under_menu.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 40vw;
+    overflow: hidden;
+  }
+  .logo{
+    width: 20vw;
+    height: 15vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 4vh;
+    left: 2vw;
+    overflow: hidden;
+  }
+  .logo_img {
+    width: 20vw;
+    height: 2.5vw;
+    color: rgba(24,24,24,1);
+    background: url("./assets/jpg/LOGO_main.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    /* top: 4vh;
+    left: 2vw; */
+    overflow: hidden;
+  }
+  
+  .description {
+    width: 20vw;
+    color: rgba(175,175,175,1);
+    position: absolute;
+    top: 5vh;
+    left: 1vw;
+    font-family: Roboto;
+    font-weight: Regular;
+    font-size: 1.5vw;
+    opacity: 1;
+    text-align: left;
+  }
+  .greeting {
+    width: 60vw;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 38vh;
+    left: 5vw;
+    font-family: Raleway;
+    font-weight: Light;
+    font-size: 2.8vw;
+    opacity: 1;
+    text-align: left;
+  }
+
+  .button_1 {
+    color: rgba(24,24,24,1);
+    position: absolute;
+    top: 0.6vh;
+    left: 14vw;
+    font-family: Raleway;
+    font-weight: Light;
+    font-size: 1.6vw;
+    opacity: 1;
+    text-align: left;
+  }
