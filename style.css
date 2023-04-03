@@ -956,3 +956,51 @@
     overflow: hidden;
   }
   
+
+
+
+
+
+
+
+
+  .calc_page {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(255, 255,255, 1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    display: flex;
+  }
+  
+  
+  .calc_backgr_image {
+    width: 80vw;
+    height: 45vw;
+    top: 30vh;
+    /* top: 18vh; */
+    background: url("./assets/jpg/calc.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    overflow: hidden;
+  }
+  
+  
+  .header_calc {
+    width: 90vw;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 15vh;
+    left: 25vw;
+    font-family: Cormorant Garamond;
+    font-weight: Regular;
+    font-size: 5vw;
+    opacity: 1;
+    text-align: left;
+  }
