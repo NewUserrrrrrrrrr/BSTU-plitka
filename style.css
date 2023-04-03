@@ -871,3 +871,46 @@
     position: absolute;
     overflow: hidden;
   }
+
+  .input_email{
+    display: flex;
+    width: 50vw ;
+    height: 6vh;
+    left: 15vw;
+    top:30vh;
+    position: relative;
+  }
+  
+  .input_tel{
+    display: flex;
+    width: 50vw ;
+    height: 6vh;
+    left: 15vw;
+    top:36vh;
+    position: relative;
+  }
+  
+  .input_feedback{
+    display: flex;
+    width: 50vw ;
+    height: 10vh;
+    left: 15vw;
+    top:42vh;
+    position: relative;
+  }
+  
+  ::placeholder {
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    font-size: 3vh;
+  
+  }
+  
+  .send_feedback{
+    display: flex;
+    width: 25vw ;
+    height: 6vh;
+    left: 27.5vw;
+    top:48vh;
+    position: relative;
+  }
