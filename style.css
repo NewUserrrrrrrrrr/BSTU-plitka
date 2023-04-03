@@ -183,3 +183,64 @@
     opacity: 1;
     text-align: left;
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  second_page {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(255, 255,255, 1);
+    opacity: 1;
+    position: relative;
+    top: 8vh;
+    left: 0px;
+    overflow: hidden;
+    display: flex;
+  }
+  
+  .base_layer_2 {
+    width: 80vw;
+    height: 100vh;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 10vw;
+    overflow: hidden;
+  }
+  
+  .header_2 {
+    width: 40vw;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 2vh;
+    left: 30vw;
+    font-family: Cormorant Garamond;
+    font-weight: Regular;
+    font-size: 5vw;
+    opacity: 1;
+    text-align: left;
+  }
+  
+  .submenu_2 {
+    width: 80vw;
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 12vh;
+    overflow: hidden;
+  }
