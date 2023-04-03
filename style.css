@@ -528,3 +528,63 @@
     left: 58vw;
     overflow: hidden;
   }
+
+
+
+
+
+
+
+
+
+
+  .third_page {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(255, 255,255, 1);
+    opacity: 1;
+    position: relative;
+    top: 15vh;
+    left: 0px;
+    overflow: hidden;
+    display: flex;
+  }
+  
+  .base_layer_3 {
+    width: 80vw;
+    height: 100vh;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 10vw;
+    overflow: hidden;
+  }
+  
+  .header_3 {
+    width: 40vw;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 5vh;
+    left: 30vw;
+    font-family: Cormorant Garamond;
+    font-weight: Regular;
+    font-size: 5vw;
+    opacity: 1;
+    text-align: left;
+  }
+  
+  .video_1 {
+    width: 100vw;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 18vh;
+    left: 0vw;
+    overflow: hidden;
+  }
+  
