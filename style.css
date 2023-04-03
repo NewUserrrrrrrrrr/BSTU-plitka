@@ -723,4 +723,88 @@
     text-align: left;
     left: 58vw;
   }
+
+  .price_coll2Img_1 {
+    width: 11vw;
+    color: rgba(100,100,100,1);
+    position: absolute;
+    top: 51vh;
+    left: 0;
+    font-family: Roboto;
+    font-weight: Light;
+    font-size: 1.8vw;
+    opacity: 1;
+    text-align: left;
+  }
+  
+  .price_coll2Img_2 {
+    width: 11vw;
+    color: rgba(100,100,100,1);
+    position: absolute;
+    top: 51vh;
+    left: 0;
+    font-family: Roboto;
+    font-weight: Light;
+    font-size: 1.8vw;
+    opacity: 1;
+    text-align: left;
+    left: 29vw;
+  }
+  
+  .price_coll2Img_3 {
+    width: 11vw;
+    color: rgba(100,100,100,1);
+    position: absolute;
+    top: 51vh;
+    left: 0;
+    font-family: Roboto;
+    font-weight: Light;
+    font-size: 1.8vw;
+    opacity: 1;
+    text-align: left;
+    left: 58vw;
+  }
+  
+  .cart_1 {
+    width: 2vw;
+    height: 2vw;
+    background: url("./assets/jpg/shopping-cart.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    left: 20vw;
+    top: 51vh;
+    overflow: hidden;
+  }
+  
+  .cart_2 {
+    width: 2vw;
+    height: 2vw;
+    background: url("./assets/jpg/shopping-cart.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    left: 49vw;
+    top: 51vh;
+    overflow: hidden;
+  }
+  
+  .cart_3 {
+    width: 2vw;
+    height: 2vw;
+    background: url("./assets/jpg/shopping-cart.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    left: 78vw;
+    top: 51vh;
+    overflow: hidden;
+  }
+  
   
