@@ -588,3 +588,139 @@
     overflow: hidden;
   }
   
+
+
+
+
+
+
+
+
+
+  .fourth_page {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(255, 255,255, 1);
+    opacity: 1;
+    position: relative;
+    top: 8vh;
+    left: 0px;
+    overflow: hidden;
+    display: flex;
+  }
+  
+  .base_layer_4 {
+    width: 80vw;
+    height: 100vh;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 10vw;
+    overflow: hidden;
+  }
+  
+  .header_4 {
+    width: 80vw;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 5vh;
+    left: 15vw;
+    font-family: Cormorant Garamond;
+    font-weight: Regular;
+    font-size: 5vw;
+    opacity: 1;
+    text-align: left;
+  }
+  
+  .collage_2 {
+    width: 80vw;
+    height: 72vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 20vh;
+    overflow: hidden;
+  }
+  
+  .coll2Img_1 {
+    width: 22vw;
+    height: 22vw;
+    background: url("./assets/jpg/4_1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+  }
+  
+  .coll2Img_2 {
+    width: 22vw;
+    height: 22vw;
+    background: url("./assets/jpg/4_2.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    left: 29vw;
+    overflow: hidden;
+  }
+  .coll2Img_3 {
+    width: 22vw;
+    height: 22vw;
+    background: url("./assets/jpg/4_3.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    left: 58vw;
+    overflow: hidden;
+  }
+  
+  .desc_coll2Img_1 {
+    width: 22vw;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 38vh;
+    left: 0;
+    font-family: Roboto;
+    font-weight: Light;
+    font-size: 1.8vw;
+    opacity: 1;
+    text-align: left;
+  }
+  
+  .desc_coll2Img_2 {
+    width: 22vw;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 38vh;
+    left: 0;
+    font-family: Roboto;
+    font-weight: Light;
+    font-size: 1.8vw;
+    opacity: 1;
+    text-align: left;
+    left: 29vw;
+  }
+  .desc_coll2Img_3 {
+    width: 22vw;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 38vh;
+    left: 0;
+    font-family: Roboto;
+    font-weight: Light;
+    font-size: 1.8vw;
+    opacity: 1;
+    text-align: left;
+    left: 58vw;
+  }
+  
