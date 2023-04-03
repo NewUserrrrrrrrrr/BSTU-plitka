@@ -1004,3 +1004,15 @@
     opacity: 1;
     text-align: left;
   }
+
+  .button_2 {
+    color: rgba(24,24,24,1);
+    position: absolute;
+    top: 0.6vh;
+    left: 14vw;
+    font-family: Raleway;
+    font-weight: Light;
+    font-size: 1.7vw;
+    opacity: 1;
+    text-align: left;
+  }
