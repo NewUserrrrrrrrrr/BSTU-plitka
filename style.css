@@ -914,3 +914,45 @@
     top:48vh;
     position: relative;
   }
+
+
+
+
+
+
+
+  .sixth_page {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(255, 255,255, 1);
+    opacity: 1;
+    position: relative;
+    left: 0px;
+    overflow: hidden;
+    display: flex;
+  }
+  
+  .base_layer_6 {
+    width: 90vw;
+    height: 100vh;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    overflow: hidden;
+  }
+  
+  .backgr_image_6 {
+    width: 88vw;
+    height: 50vw;
+    top: 12vh;
+    left: 10vw;
+    background: url("./assets/jpg/info.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    overflow: hidden;
+  }
+  
