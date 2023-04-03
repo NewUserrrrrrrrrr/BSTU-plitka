@@ -196,7 +196,7 @@
 
 
 
-  second_page {
+  .second_page {
     width: 100vw;
     height: 100vh;
     background: rgba(255, 255,255, 1);
@@ -242,5 +242,289 @@
     opacity: 1;
     position: absolute;
     top: 12vh;
+    overflow: hidden;
+  }
+
+  .option_2_1 {
+    width: 21vw;
+    height: 100vw;
+    background: url("./assets/jpg/v22_1371.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+    background: rgba(255,255,255,1);
+  }
+  
+  .desc_img_1 {
+    width: 5vw;
+    height: 5vw;
+    color: rgba(24,24,24,1);
+    background: url("./assets/jpg/Group.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 5vh;
+    overflow: hidden;
+  }
+  
+  .desc2_1 {
+    /* width: 137px; */
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 6vh;
+    left: 6vw;
+    font-family: Roboto;
+    font-weight: Light;
+    font-size: 1.4vw;
+    opacity: 1;
+    text-align: left;
+  }
+  
+  
+  
+  
+  .option_2_2 {
+    width: 18vw;
+    height: 100vw;
+    background: url("./assets/jpg/v22_1371.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    left: 21vw;
+    overflow: hidden;
+    background: rgba(255,255,255,1);
+  }
+  
+  
+  .desc_img_2 {
+    width: 5vw;
+    height: 5vw;
+    color: rgba(24,24,24,1);
+    background: url("./assets/jpg/codepen.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 5vh;
+    overflow: hidden;
+  }
+  
+  .desc2_2 {
+    /* width: 137px; */
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 8vh;
+    left: 6vw;
+    font-family: Roboto;
+    font-weight: Light;
+    font-size: 1.4vw;
+    opacity: 1;
+    text-align: left;
+  }
+  
+  
+  
+  
+  .option_2_3 {
+    width: 20vw;
+    height: 100vw;
+    background: url("./assets/jpg/v22_1371.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    left: 40vw;
+    overflow: hidden;
+    background: rgba(255,255,255,1);
+  }
+  
+  
+  .desc_img_3 {
+    width: 5vw;
+    height: 5vw;
+    color: rgba(24,24,24,1);
+    background: url("./assets/jpg/layers.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 5vh;
+    overflow: hidden;
+  }
+  
+  .desc2_3 {
+    /* width: 137px; */
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 6vh;
+    left: 6vw;
+    font-family: Roboto;
+    font-weight: Light;
+    font-size: 1.4vw;
+    opacity: 1;
+    text-align: left;
+  }
+  
+  
+  
+  
+  .option_2_4 {
+    width: 21vw;
+    height: 100vw;
+    background: url("./assets/jpg/v22_1371.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    left: 59vw;
+    overflow: hidden;
+    background: rgba(255,255,255,1);
+  }
+  
+  
+  .desc_img_4 {
+    width: 6vw;
+    height: 5vw;
+    color: rgba(24,24,24,1);
+    background: url("./assets/jpg/truck.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 5vh;
+    overflow: hidden;
+  }
+  
+  .desc2_4 {
+    /* width: 137px; */
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 6vh;
+    left: 7vw;
+    font-family: Roboto;
+    font-weight: Light;
+    font-size: 1.4vw;
+    opacity: 1;
+    text-align: left;
+  }
+  
+  
+  .option_2_4 {
+    width: 21vw;
+    height: 100vw;
+    background: url("./assets/jpg/v22_1371.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    left: 59vw;
+    overflow: hidden;
+    background: rgba(255,255,255,1);
+  }
+  
+  
+  .collage_1 {
+    width: 80vw;
+    height: 72vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 28vh;
+    overflow: hidden;
+  }
+  
+  .collImg_1 {
+    width: 22vw;
+    height: 22vw;
+    background: url("./assets/jpg/1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+  }
+  
+  .collImg_2 {
+    width: 22vw;
+    height: 22vw;
+    background: url("./assets/jpg/2.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    left: 29vw;
+    overflow: hidden;
+  }
+  .collImg_3 {
+    width: 22vw;
+    height: 22vw;
+    background: url("./assets/jpg/3.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    left: 58vw;
+    overflow: hidden;
+  }
+  
+  .collImg_4 {
+    width: 22vw;
+    height: 22vw;
+    background: url("./assets/jpg/4.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 38vh;
+    left: 0;
+    overflow: hidden;
+  }
+  
+  .collImg_5 {
+    width: 22vw;
+    height: 22vw;
+    background: url("./assets/jpg/5.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 38vh;
+    left: 29vw;
+    overflow: hidden;
+  }
+  .collImg_6 {
+    width: 22vw;
+    height: 22vw;
+    background: url("./assets/jpg/6.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 38vh;
+    left: 58vw;
     overflow: hidden;
   }
