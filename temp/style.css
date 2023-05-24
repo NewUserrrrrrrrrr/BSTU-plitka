@@ -23,6 +23,8 @@
     width: 141.5px;
     height: 17.56px;
   }
+
+
   .burger-child1,
   .burger-child2,
   .line-div {
@@ -49,7 +51,7 @@
     position: relative;
     width: 23px;
     height: 16px;
-    display: inline-block;/*---------------*/
+    display: inline-block;
   }
   
   
@@ -63,7 +65,6 @@
     z-index: 1;
   }
   
-  /* Links inside the dropdown */
   .dropdown-content a {
     color: rgb(255, 255, 255);
     padding: 12px 16px;
@@ -75,6 +76,7 @@
     display: block;
   }
   
+
   
   .menu1 {
     top: 20px;
