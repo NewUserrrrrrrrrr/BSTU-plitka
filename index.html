@@ -28,6 +28,96 @@
       href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap"
     />
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <script>
+      let currentImgIdx = 1;
+      let currentImgIdx2 = 1;
+      function changeImage(){
+        var img1 = document.getElementById("create_img1");
+        var img2 = document.getElementById("create_img2");
+        var img3 = document.getElementById("create_img3");
+        var img4 = document.getElementById("create_img4");
+        var img5 = document.getElementById("create_img5");
+        var img6 = document.getElementById("create_img6");
+        adres = "./assets/png/";
+        const images1 = [ 
+            'proizvodstvo_1.jpeg',
+            'image-1219@2x.png'];
+        const images2 = [ 
+            'proizvodstvo_2.jpeg',
+            'image-1218@2x.png'];
+        const images3 = [ 
+            'proizvodstvo_3.jpeg',
+            'image-1201@2x.png'];
+        const images4 = [ 
+            'proizvodstvo_4.jpeg',
+            'image-1213@2x.png'];
+        const images5 = [ 
+            'proizvodstvo_5.jpeg',
+            'image-12011@2x.png'];
+        const images6 = [ 
+            'proizvodstvo_6.jpeg',
+            'image-1214@2x.png'
+        ]; 
+          if(currentImgIdx >= images1.length){
+              currentImgIdx = 0;
+              // If current idx exceeds images array
+              // length, reset it to 0 again
+          }
+          img1.src = adres + images1[currentImgIdx];
+          img2.src = adres + images2[currentImgIdx];
+          img3.src = adres + images3[currentImgIdx];
+          img4.src = adres + images4[currentImgIdx];
+          img5.src = adres + images5[currentImgIdx];
+          img6.src = adres + images6[currentImgIdx];
+          currentImgIdx += 1;
+          // Increment current image idx by 1
+      
+      }
+
+
+      function changeImage_3d(){
+        var img1 = document.getElementById("create_img1");
+        var img2 = document.getElementById("create_img2");
+        var img3 = document.getElementById("create_img3");
+        var img4 = document.getElementById("create_img4");
+        var img5 = document.getElementById("create_img5");
+        var img6 = document.getElementById("create_img6");
+        adres = "./assets/png/";
+        const images1 = [ 
+            '3D_1.png',
+            'image-1219@2x.png'];
+        const images2 = [ 
+            '3D_2.png',
+            'image-1218@2x.png'];
+        const images3 = [ 
+            '3D_3.png',
+            'image-1201@2x.png'];
+        const images4 = [ 
+            '3D_4.png',
+            'image-1213@2x.png'];
+        const images5 = [ 
+            '3D_5.png',
+            'image-12011@2x.png'];
+        const images6 = [ 
+            '3D_6.png',
+            'image-1214@2x.png'
+        ]; 
+          if(currentImgIdx2 >= images1.length){
+            currentImgIdx2 = 0;
+              // If current idx exceeds images array
+              // length, reset it to 0 again
+          }
+          img1.src = adres + images1[currentImgIdx2];
+          img2.src = adres + images2[currentImgIdx2];
+          img3.src = adres + images3[currentImgIdx2];
+          img4.src = adres + images4[currentImgIdx2];
+          img5.src = adres + images5[currentImgIdx2];
+          img6.src = adres + images6[currentImgIdx2];
+          currentImgIdx2 += 1;
+          // Increment current image idx by 1
+      
+      }
+    </script>
   </head>
 
   <body>

@@ -27,6 +27,58 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap"
     />
+    <script>
+      let currentImgIdx = 1;
+      let currentImgIdx2 = 1;
+      function changeImage(){
+        var img1 = document.getElementById("create_img1");
+
+        adres = "./assets/png/";
+        const images1 = [ 
+            'proizvodstvo_1.jpeg',
+            'proizvodstvo_2.jpeg',
+            'proizvodstvo_3.jpeg',
+            'proizvodstvo_4.jpeg',
+            'proizvodstvo_5.jpeg',
+            'proizvodstvo_6.jpeg',
+            'image-1201@2x.png'
+        ]; 
+          if(currentImgIdx >= images1.length){
+              currentImgIdx = 0;
+              // If current idx exceeds images array
+              // length, reset it to 0 again
+          }
+          img1.src = adres + images1[currentImgIdx];
+          currentImgIdx += 1;
+          // Increment current image idx by 1
+      
+      }
+
+
+      function changeImage_3d(){
+        var img1 = document.getElementById("create_img1");
+
+        adres = "./assets/png/";
+        const images1 = [ 
+            '3D_1.png',
+            '3D_2.png',
+            '3D_3.png',
+            '3D_4.png',
+            '3D_5.png',
+            '3D_6.png',
+            'image-1201@2x.png'
+        ]; 
+          if(currentImgIdx2 >= images1.length){
+            currentImgIdx2 = 0;
+              // If current idx exceeds images array
+              // length, reset it to 0 again
+          }
+          img1.src = adres + images1[currentImgIdx2];
+          currentImgIdx2 += 1;
+          // Increment current image idx by 1
+      
+      }
+    </script>
   </head>
 
   <body>
