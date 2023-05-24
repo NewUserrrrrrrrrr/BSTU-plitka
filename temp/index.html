@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="slider.css">
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cormorant Garamond:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap"
+    />
+    <script>
+      let currentImgIdx = 1;
+      let currentImgIdx2 = 1;
+      function changeImage(){
+        var img1 = document.getElementById("create_img1");
+
+        adres = "./assets/png/";
+        const images1 = [ 
+            'proizvodstvo_1.jpeg',
+            'proizvodstvo_2.jpeg',
+            'proizvodstvo_3.jpeg',
+            'proizvodstvo_4.jpeg',
+            'proizvodstvo_5.jpeg',
+            'proizvodstvo_6.jpeg',
+            'image-1201@2x.png'
+        ]; 
+          if(currentImgIdx >= images1.length){
+              currentImgIdx = 0;
+              // If current idx exceeds images array
+              // length, reset it to 0 again
+          }
+          img1.src = adres + images1[currentImgIdx];
+          currentImgIdx += 1;
+          // Increment current image idx by 1
+      
+      }
+
+
+      function changeImage_3d(){
+        var img1 = document.getElementById("create_img1");
+
+        adres = "./assets/png/";
+        const images1 = [ 
+            '3D_1.png',
+            '3D_2.png',
+            '3D_3.png',
+            '3D_4.png',
+            '3D_5.png',
+            '3D_6.png',
+            'image-1201@2x.png'
+        ]; 
+          if(currentImgIdx2 >= images1.length){
+            currentImgIdx2 = 0;
+              // If current idx exceeds images array
+              // length, reset it to 0 again
+          }
+          img1.src = adres + images1[currentImgIdx2];
+          currentImgIdx2 += 1;
+          // Increment current image idx by 1
+      
+      }
+    </script>
+  </head>
+
+  <body>
+    <div class="div7">
+      <div class="div8">
+        <img class="image-1200-icon" alt="" src="./assets/png/image-1200@2x.png" />
+
+        <div class="geometrica-">
+          <p class="geometrica-1">Geometrica-магазин керамической плитки и</p>
+          <p class="geometrica-1">керамогранита в Беларуси</p>
+        </div>
+        <div class="menu1">
+          <img class="logo-main-icon2" alt="" src="./assets/png/group-110.png" />
+
+
+          <button class="burger1">
+            <div class="dropdown-content">
+              <a href="./index.html">О нас</a>
+              <a href="#">Прайс</a>
+              <a href="./calculator.html">Расчет стоимости</a>
+              <a href="#">Каталог</a>
+            </div>
+            <div class="line-div"></div>
+            <div class="burger-child1"></div>
+            <div class="burger-child2"></div>
+          </button>
+
+        </div>
+      </div>
+      <div class="advantages">
+        <h1 class="h11">Наши услуги</h1>
+        <button class="group-group" id="create_plitku" onclick="changeImage()">
+          <img class="group-icon1" alt="" src="./assets/png/group1.png" />
+
+          <img class="group-icon2" alt="" src="./assets/png/group1.png" />
+
+          <div class="div9">
+            <p class="geometrica-1">изготовление плитки</p>
+            <p class="geometrica-1">и керамогранита</p>
+          </div>
+        </button>
+        <button class="rectangle-parent4" id="3d_plitku" onclick="changeImage_3d()">
+          <div class="group-child9"></div>
+          <img class="codepen-icon" alt="" src="./assets/png/codepen.png" />
+
+          <div class="d-">
+            <p class="geometrica-1">3D дизайн-проект</p>
+          </div>
+        </button>
+        <button class="rectangle-parent5">
+          <div class="group-child10"></div>
+          <div class="div10">
+            <p class="geometrica-1">удобная доставка</p>
+            <p class="geometrica-1">по Беларуси</p>
+          </div>
+          <img class="truck-icon" alt="" src="./assets/png/truck.png" />
+        </button>
+        <button class="rectangle-parent6">
+          <div class="group-child11"></div>
+          <img class="clock-icon" alt="" src="./assets/png/clock.png" />
+
+          <img class="layers-icon" alt="" src="./assets/png/layers.png" />
+
+          <div class="div11">
+            <p class="geometrica-1">резка и монтаж плитки</p>
+            <p class="geometrica-1">на вашем объекте</p>
+          </div>
+        </button>
+        <img class="image-1201-icon" alt="" src="./assets/png/image-1201@2x.png" id="create_img1" />
+      </div>
+      <div class="services">
+        <h1 class="h12">Видео работ</h1>
+        <img class="image-1201-icon1" alt="" src="./assets/png/image-12012@2x.png"/>
+
+        <img class="play-hover-icon" alt="" src="./assets/png/play-hover.png" />
+      </div>
+      <div class="portfolio">
+        <h1 class="h13">Цены на популярные виды</h1>
+        <div class="rectangle-parent7">
+          <div class="group-child12"></div>
+          <div class="group-child13"></div>
+          <img class="image-85-icon" alt="" src="./assets/png/image-85@2x.png" />
+
+          <div class="rectangle-parent8">
+            <div class="group-child14"></div>
+            <div class="italon">Italon, Россия</div>
+          </div>
+          <img class="heart-icon" alt="" src="./assets/png/heart.png" />
+
+          <div class="group-child15"></div>
+          <img
+            class="shopping-cart-icon"
+            alt=""
+            src="./assets/png/shoppingcart.png"
+          />
+
+          <div class="byn">32.55 BYN</div>
+          <div class="x80-16">
+            Керамогранит «Жаклин» 20x80 см 1.6 м² цвет белый
+          </div>
+        </div>
+        <div class="rectangle-parent9">
+          <div class="group-child16"></div>
+          <div class="group-child17"></div>
+          <img class="image-85-icon1" alt="" src="./assets/png/image-851@2x.png" />
+
+          <div class="rectangle-parent10">
+            <div class="group-child18"></div>
+            <div class="italon">Italon, Россия</div>
+          </div>
+          <img class="heart-icon1" alt="" src="./assets/png/heart1.png" />
+
+          <div class="group-child19"></div>
+          <img
+            class="shopping-cart-icon1"
+            alt=""
+            src="./assets/png/shoppingcart1.png"
+          />
+
+          <div class="byn1">32.55 BYN</div>
+          <div class="creto-forza-calacatta">
+            Керамогранит Creto Forza Calacatta white PG 01 45х45
+          </div>
+        </div>
+        <div class="rectangle-parent11">
+          <div class="group-child20"></div>
+          <div class="group-child21"></div>
+          <img class="image-85-icon2" alt="" src="./assets/png/image-852@2x.png" />
+
+          <div class="rectangle-parent12">
+            <div class="group-child22"></div>
+            <div class="italon">Italon, Россия</div>
+          </div>
+          <img class="heart-icon2" alt="" src="./assets/png/heart.png" />
+
+          <div class="group-child23"></div>
+          <img
+            class="shopping-cart-icon2"
+            alt=""
+            src="./assets/png/shoppingcart2.png"
+          />
+
+          <div class="byn2">32.55 BYN</div>
+          <div class="x80-161">
+            Керамогранит «Жаклин» 20x80 см 1.6 м² цвет белый
+          </div>
+        </div>
+      </div>
+      <div class="sertificate">
+        <div class="div12">
+          <form class="contacts-container">
+            <img
+              class="image-85-icon3"
+              alt=""
+              src="./assets/png/image-853@2x.png"
+            />
+
+            <div class="rectangle"></div>
+            <button class="btn">
+              <div class="rectangle1"></div>
+              <div class="div13">Отправить сообщение</div>
+            </button>
+            <input class="input1" type="text" />
+
+            <div class="rectangle2"></div>
+            <input class="e-mail" type="text" />
+
+            <div class="rectangle3"></div>
+            <input class="input2" type="text" />
+
+            <h1 class="contacts-title">Оставьте свой отзыв</h1>
+          </form>
+        </div>
+      </div>
+      <div class="reviews1">
+        <div class="contact1">
+          <img class="image-34-icon1" alt="" src="./assets/png/image-34@2x.png" />
+
+          <div class="rectangle-parent13">
+            <div class="group-child24"></div>
+            <b class="b2">
+              <p class="geometrica-1">КОНТАКТНАЯ</p>
+              <p class="geometrica-1">ИНФОРМАЦИЯ</p>
+            </b>
+            <div class="div14">г. Минск, ул. Старо-Кузьмихинская, 41/3</div>
+            <div class="div15">
+              <p class="p18">Часы работы: 9:00 — 21:00</p>
+            </div>
+            <div class="container">
+              <div class="div16">+375(29)88-66-230</div>
+              <img
+                class="phone-call-icon2"
+                alt=""
+                src="./assets/png/phonecall.png"
+              />
+
+              <div class="em000320gbstuby-container1">
+                <p class="geometrica-1">em000320@g.bstu.by</p>
+                <p class="geometrica-1">Павлюковец А.Н.,ЭМ-3</p>
+              </div>
+              <img class="mail-icon1" alt="" src="./assets/png/mail.png" />
+            </div>
+            <button class="rectangle-parent14">
+              <div class="group-child25"></div>
+              <b class="b3">обратная связь</b>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="footer1">
+        <img class="icon2" alt="" src="./assets/png/-1@2x.png" />
+
+        <img class="icon3" alt="" src="./assets/png/-11@2x.png" />
+
+        <img class="logo-main-icon3" alt="" src="./assets/png/group-110.png" />
+
+        <div class="geometrica38-group">
+          <div class="geometrica381">geometrica38</div>
+          <img class="group-icon3" alt="" src="./assets/png/group2.png" />
+        </div>
+        <div class="div17">
+          <p class="p20">Каталог</p>
+          <p class="p20">Оплата и доставка</p>
+          <p class="p20">Акции</p>
+          <p class="p20">Полезные советы</p>
+          <p class="geometrica-1">Контакты</p>
+        </div>
+        <div class="image-1216-group">
+          <img
+            class="image-1216-icon1"
+            alt=""
+            src="./assets/png/image-1216@2x.png"
+          />
+
+          <img
+            class="image-1215-icon1"
+            alt=""
+            src="./assets/png/image-1215@2x.png"
+          />
+
+          <img
+            class="image-1217-icon1"
+            alt=""
+            src="./assets/png/image-1217@2x.png"
+          />
+        </div>
+        <div class="parent1">
+          <div class="div18">+375(29)88-66-230</div>
+          <img class="phone-call-icon3" alt="" src="./assets/png/phonecall.png" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
