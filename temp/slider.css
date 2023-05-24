@@ -1,0 +1,50 @@
+.image-slider {
+  position: relative;
+  width: 320px;
+  height: 200px;
+  overflow: hidden;
+}
+
+.image-slider__wrapper {
+  display: flex;
+  transition: transform 0.5s;
+}
+
+.image-slider__wrapper img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.image-slider__control {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px;
+  font-size: 24px;
+  background: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.image-slider__control--prev {
+  left: 10px;
+}
+
+.image-slider__control--next {
+  right: 10px;
+}
+
+.image-slider__control:hover {
+  color: #ccc;
+}
+
+.h14 {
+  margin: 0;
+  font-family: "Cormorant Garamond";
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--color-black);
+  text-align: center;
+}
