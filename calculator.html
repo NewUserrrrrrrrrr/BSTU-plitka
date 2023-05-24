@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global_for_calculator.css" />
+    <link rel="stylesheet" href="./style_calc.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cormorant Garamond:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap"
+    />
+    <script>
+        function calculate_costs() {
+          // Get the selected value from the select field
+          var selectField1 = document.getElementById('manufacturer_product');
+          var operation1 = Number(selectField1.value);
+  
+          var selectField2 = document.getElementById('type_product');
+          var operation2 = Number(selectField2.value);
+  
+          var selectField3 = document.getElementById('design_product');
+          var operation3 = Number(selectField3.value);
+    
+          // Get the input values
+          var square = Number(parseFloat(document.getElementById('input_square').value));
+    
+          
+          var result = (operation2+operation3+operation1)*square
+    
+          // Display the result
+          document.getElementById('result_costs').textContent = result.toString();
+  
+        }
+      </script>
+  </head>
+  <body>
+    <div class="div">
+      <div class="header">
+        <div class="parent">
+          <button class="button">О нас</button>
+          <button class="button">Прайс</button>
+          <button class="button">Каталог</button>
+          <div class="studios">
+            <a class="button3" type="button" href="./index.html">Главная</a>
+          </div>
+        </div>
+        <div class="group-parent">
+          <img class="group-child" alt="" src="./assets/png/group-110.png" />
+
+          <div class="group-wrapper">
+            <div class="user-parent">
+              <button class="user">
+                <img class="vector-icon" alt="" src="./assets/svg/vector.svg" />
+
+                <img class="vector-icon1" alt="" src="./assets/svg/vector1.svg" />
+              </button>
+              <button class="shopping-cart">
+                <img class="vector-icon2" alt="" src="./assets/svg/vector2.svg" />
+
+                <img class="vector-icon3" alt="" src="./assets/svg/vector3.svg" />
+
+                <img class="vector-icon4" alt="" src="./assets/svg/vector4.svg" />
+              </button>
+              <div class="div1">21</div>
+              <div class="div2">0</div>
+              <button class="heart">
+                <img class="vector-icon5" alt="" src="./assets/svg/vector5.svg" />
+              </button>
+            </div>
+          </div>
+        </div>
+        <h1 class="h1">
+          <p class="p">керамическая плитка и</p>
+          <p class="p">керамогранит в Беларуси</p>
+        </h1>
+      </div>
+      <div class="div3">
+        <div class="contact">
+          <img class="image-34-icon" alt="" src="./assets/png/image-34@2x.png" />
+
+          <div class="rectangle-parent">
+            <div class="group-item"></div>
+            <div class="div4">Старо-Кузьмихинская, 41/3</div>
+            <img class="map-pin-icon" alt="" src="./assets/png/mappin.png" />
+          </div>
+          <div class="rectangle-group">
+            <div class="group-inner"></div>
+            <b class="b">
+              <p class="p">КОНТАКТНАЯ</p>
+              <p class="p">ИНФОРМАЦИЯ</p>
+            </b>
+            <div class="div5">г. Минск, ул. Старо-Кузьмихинская, 41/3</div>
+            <div class="div6">
+              <p class="p4">Часы работы: 9:00 — 21:00</p>
+            </div>
+            <div class="group">
+              <div class="div7">+375(29)88-66-230</div>
+              <img
+                class="phone-call-icon"
+                alt=""
+                src="./assets/png/phonecall.png"
+              />
+
+              <div class="em000320gbstuby-container">
+                <p class="p">em000320@g.bstu.by</p>
+                <p class="p">Павлюковец А.Н.,ЭМ-3</p>
+              </div>
+              <img class="mail-icon" alt="" src="./assets/png/mail.png" />
+            </div>
+            <button class="rectangle-container">
+              <div class="rectangle-div"></div>
+              <b class="b1">обратная связь</b>
+            </button>
+          </div>
+        </div>
+        <div class="footer">
+          <div class="footer-child"></div>
+          <div class="div8">
+            <p class="p6">Каталог</p>
+            <p class="p6">Оплата и доставка</p>
+            <p class="p6">Акции</p>
+            <p class="p6">Полезные советы</p>
+            <p class="p">Контакты</p>
+          </div>
+          <div class="d-">
+            <p class="p6">Выезд на замер</p>
+            <p class="p6">Расчет материалов</p>
+            <p class="p6">Резка</p>
+            <p class="p6">Изготовление спец.изделий</p>
+            <p class="p">3D-проект (дизайн)</p>
+          </div>
+          <button class="group-button">
+            <div class="group-child1"></div>
+            <b class="b2">КАТАЛОГ ПРОДУКЦИИ</b>
+            <div class="group-div">
+              <div class="group-child2"></div>
+              <div class="group-child3"></div>
+              <div class="group-child4"></div>
+            </div>
+          </button>
+          <button class="rectangle-parent1">
+            <div class="group-child5"></div>
+            <b class="b3">наверх страницы</b>
+            <div class="group-container">
+              <div class="rectangle-parent2">
+                <div class="group-child6"></div>
+                <div class="group-child7"></div>
+                <div class="group-child8"></div>
+              </div>
+            </div>
+          </button>
+          <div class="wrapper">
+            <b class="b4">интернет-магазин </b>
+          </div>
+          <div class="footer-inner">
+            <div class="container">
+              <div class="div9">+375(29)88-66-230</div>
+              <img
+                class="phone-call-icon1"
+                alt=""
+                src="./assets/png/phonecall1.png"
+              />
+            </div>
+          </div>
+          <div class="geometrica38-parent">
+            <div class="geometrica38">geometrica38</div>
+            <img class="group-icon" alt="" src="./assets/png/group.png" />
+          </div>
+          <div class="group-parent1">
+            <img class="group-child9" alt="" src="./assets/png/group-156.png" />
+
+            <img class="group-icon1" alt="" src="./assets/png/group-110.png" />
+
+            <div class="div10">
+              керамическая плитка и керамогранит в Беларуси
+            </div>
+          </div>
+          <div class="div11">услуги компании</div>
+          <div class="image-1216-parent">
+            <img
+              class="image-1216-icon"
+              alt=""
+              src="./assets/png/image-1216@2x.png"
+            />
+
+            <img
+              class="image-1215-icon"
+              alt=""
+              src="./assets/png/image-1215@2x.png"
+            />
+
+            <img
+              class="image-1217-icon"
+              alt=""
+              src="./assets/png/image-1217@2x.png"
+            />
+          </div>
+        </div>
+        <img class="icon" alt="" src="./assets/png/-1@2x.png" />
+
+        <img class="icon1" alt="" src="./assets/png/-11@2x.png" />
+      </div>
+      <div class="frame-div">
+        <div class="rectangle-parent3">
+          <div class="group-child10"></div>
+          <select class="group-select" id="design_product">
+            <option value="20">Фактурная</option>
+            <option value="10">Однотонная</option>
+            <option value="30">Мрамор</option>
+            <option value="15">Однотонная с узорами</option>
+          </select>
+          <label class="label">Вид товара</label>
+        </div>
+        <div class="rectangle-parent4">
+          <div class="group-child10"></div>
+          <select class="group-select" id="type_product">
+            <option value="21">Фаянс</option>
+            <option value="12">Клинкер</option>
+            <option value="29">Монокоттура</option>
+            <option value="15">Коттофорте</option>
+          </select>
+          <label class="label">Тип товара</label>
+        </div>
+        <div class="rectangle-parent5">
+          <div class="group-child10"></div>
+          <button class="rectangle-button"></button>
+          <button class="group-child14"></button>
+          <img class="group-child15" alt="" src="./assets/png/group-250.png" />
+
+          <img class="group-child16" alt="" src="./assets/png/vector-60.png" />
+
+          <input class="input" type="number" id="input_square" />
+        </div>
+        <div class="rectangle-parent6">
+          <div class="group-child10"></div>
+          <select class="group-child18"  id="manufacturer_product">
+            <option value="10">Германия</option>
+            <option value="5">Беларусь</option>
+            <option value="12">Италия</option>
+            <option value="7">Россия</option>
+          </select>
+          <label class="label2">Производитель</label>
+        </div>
+        <h1 class="h11">Расчет стоимости</h1>
+        <h4 class="h4">Выберите тип товара:</h4>
+        <h4 class="h41">Выберите вид товара:</h4>
+        <h4 class="h42">Выберите производителя товара:</h4>
+        <h4 class="h43">Выберите количества товара, м2</h4>
+        <button class="rectangle-parent7" onclick="calculate_costs()">
+          <div class="group-child10"></div>
+          <h3 class="h3">Цена за м2</h3>
+        </button>
+        <div class="rectangle-parent8">
+          <div class="group-child10">BY RUB:</div>
+          <p><span class="textarea" id="result_costs"></span></p>
+        </div>
+        <img class="image-1218-icon" alt="" src="./assets/png/image-1218@2x.png" />
+      </div>
+    </div>
+  </body>
+</html>
