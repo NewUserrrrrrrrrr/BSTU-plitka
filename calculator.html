@@ -25,7 +25,29 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap"
     />
-
+    <script>
+        function calculate_costs() {
+          // Get the selected value from the select field
+          var selectField1 = document.getElementById('manufacturer_product');
+          var operation1 = Number(selectField1.value);
+  
+          var selectField2 = document.getElementById('type_product');
+          var operation2 = Number(selectField2.value);
+  
+          var selectField3 = document.getElementById('design_product');
+          var operation3 = Number(selectField3.value);
+    
+          // Get the input values
+          var square = Number(parseFloat(document.getElementById('input_square').value));
+    
+          
+          var result = (operation2+operation3+operation1)*square
+    
+          // Display the result
+          document.getElementById('result_costs').textContent = result.toString();
+  
+        }
+      </script>
   </head>
   <body>
     <div class="div">
