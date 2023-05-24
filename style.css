@@ -44,12 +44,16 @@
   justify-content: flex-start;
   gap: 45px;
 }
-.group-child,
+.group-child{
+  position: absolute;
+  top: 31.01px;
+  left: 34px;
+}
+
 .vector-icon {
   position: absolute;
   top: 0;
   left: 0;
-  width: 188.66px;
   height: 23.42px;
 }
 .vector-icon {
@@ -137,7 +141,7 @@
 .group-wrapper,
 .user-parent {
   position: absolute;
-  top: 0;
+  top: 31.01px;
   left: 0;
   width: 134.11px;
   height: 22.9px;
@@ -152,6 +156,11 @@
   left: 34px;
   width: 979.11px;
   height: 45.89px;
+  /* position: absolute; */
+  /* top: 0; */
+  /* left: 0; */
+  /* width: 134.11px;
+  height: 22.9px; */
 }
 .p {
   margin: 0;
@@ -796,7 +805,7 @@
   left: -2px;
   height: 485px;
   overflow: hidden;
-  background-image: url(./public/1@3x.png);
+  background-image: url(./assets/png/@3x.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -1410,7 +1419,6 @@
 
 
 
-
 /* For Tablets */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   /* .view {
@@ -1428,6 +1436,7 @@
 }
 .button{
   cursor: pointer;
+  font-size: 13.5px;
 }
 
 .button3 {
@@ -1444,14 +1453,24 @@
   text-align: left;
   display: inline-block;
 }
+
+/* div a {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+} */
+
 .button3 {
   position: absolute;
   top: 0;
   left: 0;
-
+  font-size: 13.5px;
 }
 .studios {
   position: relative;
+  top: 5.63px;
 }
 .parent {
   position: absolute;
@@ -1465,7 +1484,14 @@
   justify-content: flex-start;
   gap: 33.75px;
 }
-.group-child,
+/* .group-child */
+.group-child{
+  position: absolute;
+  top: 25.5px;
+  left: 29.5px;
+  height: 17.56px;
+  width: 141.5px;
+}
 .vector-icon {
   position: absolute;
   top: 0;
@@ -1565,7 +1591,8 @@
 }
 .group-parent,
 .group-wrapper {
-  top: 17.24px;
+  /* top: 17.24px; */
+  top: 40.5px;
   left: 633.75px;
 }
 .group-parent {
@@ -2213,7 +2240,7 @@
     width: 768.0px;
     height: 364px;
     overflow: hidden;
-    background-image: url(./public/1@3x.png);
+    background-image: url(./assets/png/@3x.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;

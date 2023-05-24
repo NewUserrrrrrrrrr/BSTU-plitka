@@ -997,20 +997,20 @@
 
 
 
-/* For Mobile */
+/* For Mobile 
 @media screen and (max-width: 321px) {
   /* .view {
       width: 400px;
-  } */
+  } 
 }
-
+*/
 
 
 
 
 
 /* For Tablets */
-@media screen and (min-width: 568px) and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   /* .view {
       width: 768px;
   } */
